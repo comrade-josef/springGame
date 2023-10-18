@@ -1,0 +1,43 @@
+body{
+    background-image: url("Lorax.png");
+    background-position:top; 
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+header {
+    position: fixed;
+    top: 0;
+    background-color: blanchedalmond;
+    width: 100%;
+}
+
+.cadastro{
+    background-color: antiquewhite;
+    border: 3px solid black;
+    width: 25%;
+    height: 140px;
+    position: absolute center;
+    float: left; 
+    margin-left: 20px;
+    text-align: left;
+}
+
+.Pesquisa{
+    background-color:antiquewhite;
+    border: 3px solid black;
+    width: 30%;
+    height: 140px;
+    float: right; 
+    margin: 3px; 
+}
+.resultadoPesquisa{
+    background-color: aliceblue;
+    border: 3px solid gray;
+}
+.fixarRodape {
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    background-color: antiquewhite;
+}
